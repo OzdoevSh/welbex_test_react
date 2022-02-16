@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button{
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  height: 100px;
+  width: 155px;
+  background-color: #00AEEE ;
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #1198c9 ;
+}
+
+.addButton{
+  margin-top: 15px;
+  margin-bottom: -25px;
+}
